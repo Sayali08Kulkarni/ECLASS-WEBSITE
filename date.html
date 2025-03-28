@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-CLASS | E-Learning Platform</title>
+    <link rel="stylesheet" href="date.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">E-CLASS</div>
+            <ul class="nav-links">
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <!-- <li><a href="#" class="btn">Sign In</a></li> -->
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section --> 
+     <!-- <section class="hero">
+        <div class="hero-content">
+            <h1>Learn Anytime, Anywhere with E-CLASS</h1>
+            <p>Access high-quality courses from top educators and improve your skills today.</p>
+            <a href="#" class="btn">Explore Courses</a>
+        </div>
+    </section> -->
+
+
+
+
+    <main class="main">
+        <label for="datePicker">Choose a date:</label>
+        <input type="date" id="datePicker" />
+        <button id="playButton">Play Video</button>
+
+        <div id="videoContainer" style="display: none;">
+            <h2>Selected Video:</h2>
+            <video id="videoPlayer" width="600" controls>
+                <source id="videoSource" src="" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        
+    </main>
+
+    <!-- Course Categories -->
+    <section class="categories">
+        <h2>Popular Categories</h2>
+        <div class="category-container">
+            <div class="category">
+                <h3>Web Development</h3>
+                <p>HTML, CSS, JavaScript, React, and more.</p>
+            </div>
+            <div class="category">
+                <h3>Data Science</h3>
+                <p>Python, Machine Learning, AI, and more.</p>
+            </div>
+            <div class="category">
+                <h3>Graphic Design</h3>
+                <p>Photoshop, Illustrator, UI/UX Design.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section class="features">
+        <h2>Why Choose E-CLASS?</h2>
+        <div class="feature-container">
+            <div class="feature">
+                <h3>Expert Instructors</h3>
+                <p>Learn from industry professionals.</p>
+            </div>
+            <div class="feature">
+                <h3>Flexible Learning</h3>
+                <p>Study at your own pace, anywhere.</p>
+            </div>
+            <div class="feature">
+                <h3>Affordable Prices</h3>
+                <p>Quality education at low cost.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 E-CLASS. All rights reserved.</p>
+    </footer>
+    <script src="date.js"></script>
+
+</body>
+</html>
