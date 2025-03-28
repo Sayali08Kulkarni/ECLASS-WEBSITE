@@ -6,7 +6,7 @@ document.getElementById('playButton').addEventListener('click', function() {
 
     // Map of dates to video URLs
     const videoMap = {
-        '2024-10-01': 'video1.mp4', // Replace with your video paths
+        '2024-10-01': 'video2.mp4', // Replace with your video paths
         '2024-10-02': 'video2.mp4',
         '2025-03-01': 'video3.mp4',
         '2025-03-01': 'video4.mp4',
